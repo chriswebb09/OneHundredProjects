@@ -1,6 +1,8 @@
 #!/usr/bin/env python*
 # -*- coding: UTF-8 -*-
 
+#Python 2.7
+
 def is_palindrome(new_string):
     if new_string[::-1] == new_string:
         return "{} confirmed as palindrome".format(new_string)
