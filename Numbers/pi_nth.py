@@ -1,3 +1,6 @@
+#!/usr/bin/env python*
+# -*- coding: UTF-8 -*-
+
 from __future__ import print_function
 import math, sys
 from decimal import *
@@ -14,6 +17,6 @@ def shell():
             break
         else:
             print (pi_to_nth(int(entry)))
-	
+
 if __name__=='__main__':
 	shell()
