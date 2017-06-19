@@ -14,9 +14,6 @@ def shell():
             break
         else:
             print (pi_to_nth(int(entry)))
-
-
-    #	print (getValueOfPi(int(entry)))
-
+	
 if __name__=='__main__':
 	shell()
